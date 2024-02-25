@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#vastInput {
+  width: 80%;
+  margin: 10px;
+}
+
+#videoContainer {
+  width: 640px;
+  height: 360px;
+}
+
+#eventsLog {
+  margin-top: 20px;
+}

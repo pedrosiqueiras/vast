@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VAST Ad Inspector</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://unpkg.com/video.js/dist/video-js.css"
+      rel="stylesheet"
+    />
+    <script src="https://imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+  </head>
+  <body>
+    <input type="text" id="vastInput" placeholder="Paste VAST XML here" />
+    <button id="loadAd">Load Ad</button>
+    <div id="adContainer">
+      <video id="content_video" width="640" height="360" controls></video>
+    </div>
+    <div id="eventsLog"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
